@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './styles.css'; 
-
 export default function PomodoroTimer()
 {
     const [minutes, setMinutes] = useState('25');
@@ -43,13 +42,14 @@ export default function PomodoroTimer()
           }
     
     return (
-        <div>
-            <div>
-                <p id="demo"> 
-                    <input value={minutes}/>:<input value={seconds}/>
-                </p>
+        <div className="pomodoro-container">
+            <h2><span>P</span>omodoro <span><br/>T</span>imer</h2>
+            <div className="content">
+                <p>
+                <input value={minutes}/>:<input value={seconds}/>
                 <button onClick={startPomodoro}>Start</button>
                 <button onClick={refreshPage}> Refresh</button>
+                </p>
             </div>
         </div>
     );

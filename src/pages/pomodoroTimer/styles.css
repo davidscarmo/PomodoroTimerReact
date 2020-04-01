@@ -1,0 +1,67 @@
+.pomodoro-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pomodoro-container .content
+{
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.pomodoro-container .content p
+{
+    background: url('../../assets/images/tomatoBg.png');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    color: green;
+    padding: 90px;
+}
+
+.pomodoro-container .content p input
+{
+   border: none;
+   width: 40%;
+   font-size: 30px;
+   text-align: center;
+   background: transparent;
+   margin-top: 25%;
+   color: white;
+   font-weight: bold;
+}
+
+.pomodoro-container .content button 
+{
+    background: rgb(0, 172, 0);
+    border: none;
+    width: 75px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+h2{
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:green;
+}
+
+span
+{
+    color: red;
+}
